@@ -1,0 +1,70 @@
+@charset "utf-8";
+.fondonav {
+    background-color: #11212D;
+}
+.fondobody {
+    background-color: #000000;
+}
+.delineado {
+    border: 8px solid #11212D;
+    box-sizing: border-box;
+}
+.banner-dark {
+}
+.perfil-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    padding:50px;
+}
+
+.profilePhoto img{
+    width:300px;
+    border-radius:20px;
+}
+
+.profileHeader{
+    max-width:600px;
+    color:white;
+}
+.imagen-principal{
+    object-fit: cover;
+    height: 100%;
+}
+
+.imagen-secundaria{
+    object-fit: cover;
+    height: 32%;
+}
+.footer-custom{
+    background-image: url("images/footer2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form{
+    background-color: rgba(255,255,255,0.03);
+    padding:40px;
+    border-radius:20px;
+    backdrop-filter: blur(5px);
+}
+.form-control{
+    background-color:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.2);
+    color:white;
+}
+.form-control:focus{
+    background-color:#222;
+    border-color:#888;
+    color:white;
+
+    box-shadow:none;
+}
+.form-control:focus{
+    background-color:#222;
+    border-color:#888;
+    color:white;
+
+    box-shadow:none;
+}
